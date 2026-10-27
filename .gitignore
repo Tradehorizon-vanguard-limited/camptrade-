@@ -1,0 +1,35 @@
+# Environment variables and secrets
+.env*
+!.env.example
+
+# Node.js and Next.js
+node_modules/
+.next/
+out/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# TypeScript generated files
+*.tsbuildinfo
+
+# Flutter and Dart generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.flutter-automation/
+
+# Android local configuration and signing secrets
+local.properties
+key.properties
+*.jks
+*.keystore
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
